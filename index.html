@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Siswa Digital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #00c6ff;
+            box-shadow: 0 0 20px #00c6ff;
+            transition: 0.4s;
+        }
+
+        header img:hover {
+            transform: scale(1.05);
+        }
+
+        header h1 {
+            margin-top: 15px;
+            font-size: 28px;
+        }
+
+        header p {
+            opacity: 0.8;
+        }
+
+        section {
+            margin: 30px auto;
+            width: 90%;
+            max-width: 900px;
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #00c6ff;
+            border-left: 5px solid #00c6ff;
+            padding-left: 10px;
+        }
+
+        .about p {
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+            gap: 15px;
+        }
+
+        .info div {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            transition: 0.3s;
+        }
+
+        .skills span:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px #00c6ff;
+        }
+
+        .hobi {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+            gap: 15px;
+        }
+
+        .hobi div {
+            background: rgba(255,255,255,0.12);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .hobi div:hover {
+            transform: translateY(-8px);
+            background: rgba(255,255,255,0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            opacity: 0.7;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://photos.app.goo.gl/iHvPuNLHG7scfMTf7 alt"="Foto Siswa">
+    <h1>MUHAMAD FATIH</h1>
+    <p>Siswa | Pecinta Dunia Digital & Teknologi</p>
+</header>
+
+<section class="about">
+    <h2>👤 Tentang Saya</h2>
+    <p>
+        Saya adalah seorang siswa yang memiliki ketertarikan besar pada dunia digital.
+        Saya senang mempelajari teknologi, desain, dan pemrograman sejak dini.
+        Dunia digital membuat saya bisa berkreasi, belajar, dan berkembang lebih luas
+        di era modern ini.
+    </p>
+</section>
+
+<section>
+    <h2>📚 Data Diri</h2>
+    <div class="info">
+        <div><b>Nama</b><br>MUHAMAD FATIH</div>
+        <div><b>Status</b><br>Pelajar</div>
+        <div><b>Sekolah</b><br>SMKN 6 KOTA SERANG</div>
+        <div><b>Cita-cita</b><br>Programmer / IT Expert</div>
+    </div>
+</section>
+
+<section>
+    <h2>💻 Keahlian Digital</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Desain Grafis</span>
+        <span>Editing Video</span>
+        <span>Teknologi</span>
+        <span>Content Creator</span>
+    </div>
+</section>
+
+<section>
+    <h2>🎯 Hobi</h2>
+    <div class="hobi">
+        <div>💻 Coding</div>
+        <div>🎨 Desain</div>
+        <div>🎮 Game</div>
+        <div>📱 Teknologi</div>
+        <div>🎬 Editing Video</div>
+    </div>
+</section>
+
+<section>
+    <h2>🚀 Tujuan & Impian</h2>
+    <p>
+        Saya ingin menjadi seseorang yang sukses di bidang teknologi dan digital,
+        mampu menciptakan karya bermanfaat, serta mengikuti perkembangan teknologi
+        di masa depan.
+    </p>
+</section>
+
+<footer>
+    © 2026 | Website M.FATIH OFICIAL
+</footer>
+
+</body>
+</html>
